@@ -13,6 +13,7 @@ use rsync instead of scp:
     ::
         
         rsync -v --partial --progress --rsh=ssh local_file user@server:remote_file
+        rsync -rvz --partial --progress --rsh='ssh -p 17235' local_file user@server:remote_file
 
 
 Reference: http://yyab.wordpress.com/2006/12/18/resume-a-large-scp-transfer/
