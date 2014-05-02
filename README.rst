@@ -19,4 +19,17 @@ use rsync instead of scp:
 Reference: http://yyab.wordpress.com/2006/12/18/resume-a-large-scp-transfer/
 
 
+Undo SVN Add
+============
+
+Adding new files and directories to SVN can sometimes include files and directories that should not be
+included.  Remove them via the following command:
+
+    ::
+    
+        svn rm --keep-local FILENAME
+        
+        
+
+
 
