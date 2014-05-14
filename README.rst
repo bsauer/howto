@@ -29,7 +29,16 @@ included.  Remove them via the following command:
     
         svn rm --keep-local FILENAME
         
-        
+Bash Setting and DOT (.) Files
+==============================
+
+GitHub has some good information on setting up dot files.
+
+http://dotfiles.github.io
+
+
+
+
 
 
 
