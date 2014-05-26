@@ -15,7 +15,7 @@ use rsync instead of scp:
         rsync -v --partial --progress --rsh=ssh local_file user@server:remote_file
         rsync -rvz --partial --progress --rsh='ssh -p 17235' local_file user@server:remote_file
 
-        rsync -avxP --delete /path/to/directory/to/backup /path/to/directory/for/storing/bakcup
+        rsync -avxP --delete /path/to/directory/to/backup /path/to/directory/for/storing/backup
 
         -a means archive mode
         -v means print out the verbose information during backuping
