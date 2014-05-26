@@ -24,6 +24,8 @@ use rsync instead of scp:
             --progress means printing information showing the progress of the transfer
             and
             --partial means keeping partially transferred files if the transfer is interrupted
+            
+        rsync -aAXv /* /path/to/backup/folder --exclude={/dev/*,/proc/*,/sys/*,/tmp/*,/run/*,/mnt/*,/media/*,/lost+found}    
  
 
 Reference: http://yyab.wordpress.com/2006/12/18/resume-a-large-scp-transfer/
