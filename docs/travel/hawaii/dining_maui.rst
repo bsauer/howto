@@ -11,6 +11,8 @@ Hula Grill - Whaler's Village (Reservations Sunday)
 
 Barefoot Bar (Casual addition to the Hula Grill)
 
+Japengo - Sushi at the Hyatt Hotel on Kaanapali
+
 Dukes - Kaanapali (Same menu as Hula Grill possibly)
 
 Tropica - In front of the Westin (closed)
