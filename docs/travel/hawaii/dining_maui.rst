@@ -2,8 +2,12 @@
 Maui Dining
 ===========
 
+Trip Advisor (Maui): http://bit.ly/SNWLwm
+
 Lahaina
 =======
+
+Trip Advisor (Lahaina): http://bit.ly/1tMZPpI
 
 Hula Grill - Whaler's Village (Reservations Sunday)
 
