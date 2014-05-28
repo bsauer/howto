@@ -5,27 +5,27 @@ Maui Dining
 Lahaina
 =======
 
-Hula Grill - Whaler's Village
+Hula Grill - Whaler's Village (Reservations Sunday)
 
 - http://www.hulagrillkaanapali.com/
 
 Barefoot Bar (Casual addition to the Hula Grill)
 
-Dukes - Kaanapali
+Dukes - Kaanapali (Same menu as Hula Grill possibly)
 
-Tropica - In front of the Westin
+Tropica - In front of the Westin (closed)
 
 Maui Fish & Pasta (Whaler's Village)
 
-Lahaina Grill
+Lahaina Grill ($$$$)
 
 Lahaina Prime Rib and Fish Company (Front Street)
 
-Star Noodle 
+Star Noodle (???)
 
 Old Lahaina Luau
 
-Aloha Mixed Plate (Lunch - not as good anymore)
+Aloha Mixed Plate (Lunch - possibly going downhill)
 
 Leoda's Kitchen and Pie Shop
 
@@ -34,7 +34,7 @@ Foodland Farms (Grocery Store)
 Kahului
 =======
 
-Da Kitchen (Great Lunch)
+Da Kitchen (Good Lunch)
 
 Paia
 ====
@@ -47,5 +47,3 @@ Wailea
 Migrant - Wailea Beach Marriot
 
 Nick's Fish market
-
-
