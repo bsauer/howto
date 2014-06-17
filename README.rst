@@ -41,6 +41,20 @@ included.  Remove them via the following command:
     
         svn rm --keep-local FILENAME
         
+Relocate SVN Directory
+======================
+
+Relocating something in SVN is easy but I don't do it enough to remember the the easiest way to elimiate the .svn directories.
+Here are different ways to do it.
+
+    ::
+    
+        svn export –force RepositoryURL /path/to/target
+
+        find . -type d -name .svn -exec rm -rf {} \;
+        find . -type d -name .svn -exec rm -rf {} +
+        
+        
 Bash Setting and DOT (.) Files
 ==============================
 
