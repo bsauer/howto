@@ -63,6 +63,16 @@ GitHub has some good information on setting up dot files.
 http://dotfiles.github.io
 
 
+Regular Expressions in vim
+==========================
+
+Search and replace in vim is a powerful feature.  You can use regular expressions like so::
+
+     :%s#\(.*\)=\(.*\) \(.*\)$#\1 \3#
+
+
+
+
 
 
 
