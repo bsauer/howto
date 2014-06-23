@@ -71,6 +71,14 @@ Search and replace in vim is a powerful feature.  You can use regular expression
      :%s#\(.*\)=\(.*\) \(.*\)$#\1 \3#
 
 
+Bash default commands:
+======================
+
+By default bash will use emacs as the command line editor.  Therefore it pays to
+know a few emacs commands until your custom settings are installed.  Here is a decent 
+place to start: http://www.hypexr.org/bash_tutorial.php
+
+
 
 
 
