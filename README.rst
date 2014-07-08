@@ -66,9 +66,13 @@ http://dotfiles.github.io
 Regular Expressions in vim
 ==========================
 
-Search and replace in vim is a powerful feature.  You can use regular expressions like so::
+Search and replace in vim is a powerful feature.  You can use regular expressions like so
+    ::
 
-     :%s#\(.*\)=\(.*\) \(.*\)$#\1 \3#
+        :%s#\(.*\)=\(.*\) \(.*\)$#\1 \3#
+
+
+Use UP ARROW to recall previous searches and commands.
 
 
 Bash default commands:
