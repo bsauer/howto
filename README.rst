@@ -79,6 +79,20 @@ know a few emacs commands until your custom settings are installed.  Here is a d
 place to start: http://www.hypexr.org/bash_tutorial.php
 
 
+Kill Running Process:
+=====================
+
+When running things such as anisible scripts that may hang, this is how you quickly kill them:
+
+    ::
+    
+        $ <ctrl-z>    # Suspend the current process
+        $ kill %1     # Kill the suspended process
+        $ jobs        # Verify the job was terminated
+        
+        
+        
+
 
 
 
