@@ -94,8 +94,20 @@ When running things such as anisible scripts that may hang, this is how you quic
         $ kill %1     # Kill the suspended process
         $ jobs        # Verify the job was terminated
         
+
+Checking Machine Information:
+=============================
+
+Linux:
+------
+
+    http://docs.oracle.com/cd/E23824_01/html/821-1451/gkkwk.html
+
+
+Solaris:
+--------
         
-        
+    http://docs.oracle.com/cd/E23824_01/html/821-1451/gkkwk.html
 
 
 
