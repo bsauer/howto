@@ -113,7 +113,7 @@ Solaris:
 Windows 7 - Minimized windows
 =============================
 
-Windows sometime forgets the size of a window and it opens to small to even show up on the desktop. 
+Windows sometimes forgets the size of a window and it opens too small to even show up on the desktop. 
 Windows 7 has a cool new feature that should help.  Click the icon in the taskbar to ensure that 
 the program has focus. Then hold down the Windows key and press the right-arrow a few times. That 
 should move the window across your screens and eventually bring it back onto the screen that is still 
