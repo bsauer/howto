@@ -120,3 +120,18 @@ should move the window across your screens and eventually bring it back onto the
 active.  
 
 http://social.technet.microsoft.com/Forums/windows/en-US/f3040564-0457-4c91-af71-dce1bc673a99/moverecover-offscreen-window
+
+
+vim :w!!
+========
+
+Place the following in you .vimrc file:
+
+::
+
+    cmap w!! %!sudo tee > /dev/null %
+    
+Then when you need to male changes to a system file, you can 
+override the read-only permissions by typing :w!!, vim will ask for 
+your sudo password and save your changes.
+
