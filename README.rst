@@ -125,13 +125,13 @@ http://social.technet.microsoft.com/Forums/windows/en-US/f3040564-0457-4c91-af71
 vim :w!!
 ========
 
-Place the following in you .vimrc file:
+Place the following in your .vimrc file:
 
 ::
 
     cmap w!! %!sudo tee > /dev/null %
     
-Then when you need to male changes to a system file, you can 
-override the read-only permissions by typing :w!!, vim will ask for 
+Then when you need to make changes to a system file, you can 
+override the read-only permissions by typing ``:w!!``, vim will ask for 
 your sudo password and save your changes.
 
