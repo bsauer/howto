@@ -53,6 +53,15 @@ Here are different ways to do it.
 
         find . -type d -name .svn -exec rm -rf {} \;
         find . -type d -name .svn -exec rm -rf {} +
+
+SVN - Determine current branch
+==============================
+
+Run the following command to display the current SVN branch information:
+
+    ::
+    
+        svn info
         
         
 Bash Setting and DOT (.) Files
