@@ -63,6 +63,11 @@ Run the following command to display the current SVN branch information:
     
         svn info
         
+The next bashrc update add something like this to put branch information the prompt:
+
+http://petdance.com/2013/04/my-bash-prompt-with-gitsvn-branchstatus-display/
+
+        
         
 Bash Setting and DOT (.) Files
 ==============================
