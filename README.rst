@@ -149,3 +149,16 @@ Then when you need to make changes to a system file, you can
 override the read-only permissions by typing ``:w!!``, vim will ask for 
 your sudo password and save your changes.
 
+
+Find and edit with vim
+======================
+
+Refactoring can be a challenge from the command line.  Here is a quick way in bash to edit
+a bunch of files based on the find command:
+
+    ::
+        
+        vim $(find . -type d -name .svn -prune -o -type f | xargs grep db-partition | cut -f1 -d':')
+        
+        
+Use :w and :bd to cycle thru all of the files.
