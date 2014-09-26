@@ -67,8 +67,19 @@ The next bashrc update add something like this to put branch information the pro
 
 http://petdance.com/2013/04/my-bash-prompt-with-gitsvn-branchstatus-display/
 
+
+SVN - Set Executable Bit
+========================
+
+SVN does not notice mode changes to a file once it is checked in.  
+Run the following command to make a file executable in SVN.  
+Requires a commit after the change.
+
+    ::
+    
+        svn ps svn:executable yes <filename>
         
-        
+
 Bash Setting and DOT (.) Files
 ==============================
 
