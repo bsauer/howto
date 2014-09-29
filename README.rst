@@ -173,3 +173,16 @@ a bunch of files based on the find command:
         
         
 Use :w and :bd to cycle thru all of the files.
+
+
+Django Management on New Servers
+================================
+
+Django frustatingly fails quietly when imports fail (psycopg2).  To determine what is going on run the 
+following command to check the configuration.
+
+    ::
+    
+        manage.py check --verbosity=3
+        
+You will want to fully qualify manage.py or prefix with ``python <manage.py`` if it isn't already in your path and executable.
