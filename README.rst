@@ -191,8 +191,13 @@ You will want to fully qualify manage.py or prefix with ``python manage.py`` if 
 Django: Bad Request (400)
 =========================
 
-Django requires the ``ALLOWED_HOSTS = [ '*' ]`` setting if ``Debug = False`` ``in settings.py``.  It might not be obvious 
+Django requires the ``ALLOWED_HOSTS = [ '*' ]`` setting if ``Debug = False`` in ``settings.py``.  It might not be obvious 
 if the ``DEBUG`` setting is casually changed.
+
+https://docs.djangoproject.com/en/1.6/ref/settings/#std%3asetting-ALLOWED_HOSTS
+
+
+
 
 
 
