@@ -186,3 +186,13 @@ following command to check the configuration.
         manage.py check --verbosity=3
         
 You will want to fully qualify manage.py or prefix with ``python manage.py`` if it isn't already in your path and executable.
+
+
+Django: Bad Request (400)
+=========================
+
+Django requires the ``ALLOWED_HOSTS = [ '*' ]`` setting if ``Debug = False`` ``in settings.py``.  It might not be obvious 
+if the ``DEBUG`` setting is casually changed.
+
+
+
