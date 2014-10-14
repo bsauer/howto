@@ -214,5 +214,15 @@ it might be worth using rsync instead.  Maybe a future entry!
 Reference: http://www.howtogeek.com/198043/how-to-merge-folders-on-mac-os-x-without-losing-all-your-files-seriously/
 
 
+Unzip Multiple Files
+====================
+
+For some reason the unzip utility does a bad job of extracting multiple files.  Here is how to do it:
+
+    ::
+    
+        for file in `ls *.zip`; do unzip $file -d `echo $file | cut -d . -f 1`; done
+        
+This will extract each zip file into a directory of its own.
 
 
