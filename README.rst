@@ -207,7 +207,7 @@ Merging directories in OS X is never easy.  The ``ditto`` command may be the ans
         ditto -V ~/Desktop/Test ~/Downloads/Test
         
         
-**Note:** Ditto will overwrite files in the detination directory with the files in the source directory.  Therefore 
+**Note:** Ditto will overwrite files in the destination directory with the files in the source directory.  Therefore 
 it might be worth using rsync instead.  Maybe a future entry!
     
     
