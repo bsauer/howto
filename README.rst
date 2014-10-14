@@ -197,6 +197,21 @@ if the ``DEBUG`` setting is casually changed.
 https://docs.djangoproject.com/en/1.6/ref/settings/#std%3asetting-ALLOWED_HOSTS
 
 
+Merge Directories in OS X
+=========================
+
+Merging directories in OS X is never easy.  The ``ditto`` command may be the answer:
+
+    ::
+    
+        ditto -V ~/Desktop/Test ~/Downloads/Test
+        
+        
+    Note:: Ditto will overwrite files in the detination directory with the files in the source directory.  Therefore 
+    it might be worth using rsync instead.  Maybe a future entry!
+    
+    
+    Reference: http://www.howtogeek.com/198043/how-to-merge-folders-on-mac-os-x-without-losing-all-your-files-seriously/
 
 
 
