@@ -208,10 +208,10 @@ Merging directories in OS X is never easy.  The ``ditto`` command may be the ans
         
         
 Note:: Ditto will overwrite files in the detination directory with the files in the source directory.  Therefore 
-       it might be worth using rsync instead.  Maybe a future entry!
+it might be worth using rsync instead.  Maybe a future entry!
     
     
-    Reference: http://www.howtogeek.com/198043/how-to-merge-folders-on-mac-os-x-without-losing-all-your-files-seriously/
+Reference: http://www.howtogeek.com/198043/how-to-merge-folders-on-mac-os-x-without-losing-all-your-files-seriously/
 
 
 
