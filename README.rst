@@ -226,3 +226,13 @@ For some reason the unzip utility does a bad job of extracting multiple files.  
 This will extract each zip file into a directory of its own.
 
 
+Red Hat Password Aging
+======================
+
+Check the age of a password with the following command:
+
+    ::
+    
+        sudo chage -l <user>
+        
+A script to check the age and warn would be helpful.
