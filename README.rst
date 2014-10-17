@@ -247,3 +247,59 @@ it however.  The RAID Utility has moved from ``Macintosh HD > Applications > Uti
 
 http://www.macstrategy.com/article.php?127
 
+
+OS X - Software Update from the Command Line
+============================================
+
+To update the software on a Mac from the command line use ``softwareupdate``.
+
+From Apple: http://support.apple.com/kb/HT200113
+
+The softwareupdate command is also available in OS X client version of the operating system and can be used remotely if Screen Sharing, Remote Login or Remote Management is enabled in the Sharing pane of System Preferences.
+
+First, connect to the remote server using SSH, or connect to it via screen sharing and open a Terminal window.
+
+In OS X Lion and later, the softwareupdate command must be run as root and some options require it in earlier versions of OS X, so you should start by using the sudo command to enter a root shell:
+
+    ::
+        
+        sudo -s
+        
+You will need to enter an administrator's password when prompted.
+
+You can use the ``-l`` or ``--list`` argument to see which updates are available.
+
+    ::
+    
+        softwareupdate --list
+        
+This will return a list like the following.
+
+    ::
+
+        Software Update found the following new or updated software:
+        * Safari5.1.5Lion-5.1.5
+        Safari (5.1.5), 45266K [recommended]
+        * iTunesX-10.6.1
+        iTunes (10.6.1), 127659K [recommended]
+        Updates that require a restart will be marked with [restart].
+
+You can use the ``-i`` or ``--install`` argument to install one or more of the available updates. For instance, to install the Safari and iTunes updates listed above, use this command:
+
+    ::
+        
+        softwareupdate --install Safari5.1.5Lion-5.1.5 iTunesX-10.6.1
+
+Or you can use the ``-a`` or ``--all`` argument to install all available updates:
+
+    :: 
+        
+        softwareupdate --install -all
+        
+The Software Update tool will report progress as it downloads and installs the updates. When it is finished you can either use the exit command to exit your root shell, or the reboot command to restart the server (if required by the update.)
+
+To see more options and usage instructions, type:
+
+    ::
+        
+        man softwareupdate
