@@ -259,7 +259,7 @@ The ``softwareupdate`` command is also available in OS X client version of the o
 
 First, connect to the remote server using SSH, or connect to it via screen sharing and open a Terminal window.
 
-In OS X Lion and later, the softwareupdate command must be run as root and some options require it in earlier versions of OS X, so you should start by using the sudo command to enter a root shell:
+In OS X Lion and later, the ``softwareupdate`` command must be run as root and some options require it in earlier versions of OS X, so you should start by using the sudo command to enter a root shell:
 
     ::
         
