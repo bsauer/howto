@@ -255,7 +255,7 @@ To update the software on a Mac from the command line use ``softwareupdate``.
 
 From Apple: http://support.apple.com/kb/HT200113
 
-The softwareupdate command is also available in OS X client version of the operating system and can be used remotely if Screen Sharing, Remote Login or Remote Management is enabled in the Sharing pane of System Preferences.
+The ``softwareupdate`` command is also available in OS X client version of the operating system and can be used remotely if Screen Sharing, Remote Login or Remote Management is enabled in the Sharing pane of System Preferences.
 
 First, connect to the remote server using SSH, or connect to it via screen sharing and open a Terminal window.
 
@@ -294,7 +294,7 @@ Or you can use the ``-a`` or ``--all`` argument to install all available updates
 
     :: 
         
-        softwareupdate --install -all
+        softwareupdate --install --all
         
 The Software Update tool will report progress as it downloads and installs the updates. When it is finished you can either use the exit command to exit your root shell, or the reboot command to restart the server (if required by the update.)
 
