@@ -236,3 +236,14 @@ Check the age of a password with the following command:
         sudo chage -l <user>
         
 A script to check the age and warn would be helpful.
+
+
+OS X Yosemite - Apple RAID CARD
+===============================
+
+My 2008 Mac Pro with an Apple RAID card still seems to be plugging along.  Yosemite seems painfully slow on 
+it however.  The RAID Utility has moved from ``Macintosh HD > Applications > Utilities`` to 
+``Macintosh HD > System > Library > CoreServices > Applications``
+
+http://www.macstrategy.com/article.php?127
+
