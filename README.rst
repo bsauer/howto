@@ -238,7 +238,7 @@ Check the age of a password with the following command:
 A script to check the age and warn would be helpful.
 
 
-OS X Yosemite - Apple RAID CARD
+OS X Yosemite - Apple RAID Card
 ===============================
 
 My 2008 Mac Pro with an Apple RAID card still seems to be plugging along.  Yosemite seems painfully slow on 
