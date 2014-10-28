@@ -303,3 +303,15 @@ To see more options and usage instructions, type:
     ::
         
         man softwareupdate
+
+Docker Container Management
+===========================
+
+One liner to stop / remove all of Docker containers:
+
+    ::
+
+        docker stop $(docker ps -a -q)
+        docker rm $(docker ps -a -q)
+        
+https://coderwall.com/p/ewk0mq?&p=7&q=
