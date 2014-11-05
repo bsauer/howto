@@ -363,3 +363,6 @@ automount[pid]: map /etc/auto_master: line too long (max 4095 chars) or automoun
 
 Tested and verified with OS X Yosemite (10.10).
 
+Reference: http://apple.stackexchange.com/questions/152712/can-mount-afp-share-via-mount-afp-but-not-via-autofs
+
+
