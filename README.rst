@@ -315,3 +315,51 @@ One liner to stop / remove all of Docker containers:
         docker rm $(docker ps -a -q)
         
 https://coderwall.com/p/ewk0mq?&p=7&q=
+
+Automount Network Directories on OS X
+=====================================
+
+To make use of space that may be available on other network devices such as a Time Capsule automount the 
+volume using ``automount``.
+
+Create a directory for the destination share in your User directory ``/home/<user>/Share``.
+
+Add a line to the ``/etc/auto_master`` file:
+ 
+    ::
+
+        # /etc/auto_master
+        #
+        # Automounter master map
+        #
+        +auto_master                        # Use directory service
+        /Users/User/Share           auto_nas
+        /net                                -hosts      -nobrowse,hidefromfinder,nosuid
+        /home                               auto_home   -nobrowse,hidefromfinder
+        /Network/Servers                    -fstab
+        /-                                  -static
+
+Create the file ``/etc/auto_nas`` containing the following line:
+
+    ::
+        
+        # /etc/auto_nas
+        Shared_Folder -fstype=afp afp://User:Password@ip/Shared_Folder
+
+Run the following commnad: ``sudo automount -vc`` in Terminal.  The output should be similar to the following:
+
+    ::
+    
+        $ sudo automount -vc
+        automount: /Users/User/Share updated
+        automount: /net updated
+        automount: /home updated
+        automount: no unmounts
+
+The line containing ``automount: /Users/User/Share updated`` is the clue that everything worked
+
+Both files may need a trailing empty line or it won't work and you'll get the following error:
+automount[pid]: map /etc/auto_master: line too long (max 4095 chars) or automount[pid]: map /etc/auto_nas: line too long (max 4095 chars)
+
+Tested and verified with OS X Yosemite (10.10).
+
