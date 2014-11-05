@@ -1,0 +1,9 @@
+#
+# Automounter master map
+#
++auto_master		# Use directory service
+/Users/user/Share/TimeCapsuleAC auto_nas
+/net			-hosts		-nobrowse,hidefromfinder,nosuid
+/home			auto_home	-nobrowse,hidefromfinder
+/Network/Servers	-fstab
+/-			-static
