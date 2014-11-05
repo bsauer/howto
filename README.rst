@@ -363,6 +363,19 @@ automount[pid]: map /etc/auto_master: line too long (max 4095 chars) or automoun
 
 Tested and verified with OS X Yosemite (10.10).
 
-Reference: http://apple.stackexchange.com/questions/152712/can-mount-afp-share-via-mount-afp-but-not-via-autofs
+To unmount a remotely mounted volume:
 
+    ::
+        
+        $ umount /Users/User/Share 
+        
+To discover what volumes are currently mounted run the command:
+
+    ::
+        
+        $ mount
+        
+Reference: http://apple.stackexchange.com/questions/152712/can-mount-afp-share-via-mount-afp-but-not-via-autofs
+http://useyourloaf.com/blog/2011/01/24/using-the-mac-os-x-automounter.html
+http://hints.macworld.com/article.php?story=2001120201020569
 
