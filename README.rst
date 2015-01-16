@@ -405,7 +405,7 @@ http://stackoverflow.com/questions/3873514/what-is-the-equivalent-of-pl-sql-notf
 http://www.linuxtopia.org/online_books/database_guides/Practical_PostgreSQL_database/PostgreSQL_x20238_002.htm
 http://www.postgresql.org/docs/9.4/static/sql-select.html
 
-PostgreSQL Show All Privileges
+Oracle Show All Privileges
 ==============================
 
 ::
