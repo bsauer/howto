@@ -379,3 +379,28 @@ Reference: http://apple.stackexchange.com/questions/152712/can-mount-afp-share-v
 http://useyourloaf.com/blog/2011/01/24/using-the-mac-os-x-automounter.html
 http://hints.macworld.com/article.php?story=2001120201020569
 
+PostgreSQL Common Table Expressions (CTE)
+=========================================
+
+PostgreSQL does not have Colloections and BULK INSERT as Oracle does.  Use CTEs instead and the WITH clause!
+
+http://beyondrelational.com/modules/2/blogs/80/posts/10748/day-6-common-table-expressions-using-with-clause-in-postgresql.aspx
+http://www.the-art-of-web.com/sql/upsert/
+http://stackoverflow.com/questions/18439054/postgresql-with-delete-relation-does-not-exists
+http://stackoverflow.com/questions/17575489/postgresql-cte-upsert-returning-modified-rows
+http://www.postgresql.org/docs/9.3/static/queries-with.html
+http://stackoverflow.com/questions/8721503/in-postgres-sql-guidance-on-using-the-with-clause
+http://blog.heapanalytics.com/dont-iterate-over-a-postgres-array-with-a-loop/
+http://tiku.io/questions/3923973/postgresql-equivalent-of-oracle-bulk-collect
+http://www.postgresql.org/docs/8.3/static/plpgsql-porting.html
+http://stackoverflow.com/questions/5531660/type-type-name-is-table-of-number-index-by-varchar264-from-oracle-in-postgresq
+http://www.postgresmigrations.com/pdf/Three%20Array%20Type%20Overview.pdf
+http://stackoverflow.com/questions/22339628/cursor-based-records-in-postgresql
+http://www.postgresql.org/docs/current/interactive/plpgsql-control-structures.html#PLPGSQL-STATEMENTS-RETURNING
+http://www.postgresql.org/docs/current/interactive/plpgsql-control-structures.html#PLPGSQL-FOREACH-ARRAY
+http://stackoverflow.com/questions/19145761/postgres-for-loop
+http://stackoverflow.com/questions/8674718/best-way-to-select-random-rows-postgresql
+http://stackoverflow.com/questions/7943233/fast-way-to-discover-the-row-count-of-a-table/7945274#7945274
+http://stackoverflow.com/questions/3873514/what-is-the-equivalent-of-pl-sql-notfound-in-pl-pgsql
+http://www.linuxtopia.org/online_books/database_guides/Practical_PostgreSQL_database/PostgreSQL_x20238_002.htm
+http://www.postgresql.org/docs/9.4/static/sql-select.html
