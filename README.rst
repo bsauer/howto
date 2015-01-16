@@ -404,3 +404,14 @@ http://stackoverflow.com/questions/7943233/fast-way-to-discover-the-row-count-of
 http://stackoverflow.com/questions/3873514/what-is-the-equivalent-of-pl-sql-notfound-in-pl-pgsql
 http://www.linuxtopia.org/online_books/database_guides/Practical_PostgreSQL_database/PostgreSQL_x20238_002.htm
 http://www.postgresql.org/docs/9.4/static/sql-select.html
+
+PostgreSQL Show All Privileges
+==============================
+
+::
+
+    SELECT * FROM USER_SYS_PRIVS; 
+    SELECT * FROM USER_TAB_PRIVS;
+    SELECT * FROM USER_ROLE_PRIVS;
+    
+http://stackoverflow.com/questions/9811670/how-to-show-all-privileges-from-a-user-in-oracle
