@@ -423,5 +423,5 @@ MySQL requires a quoted list of values for the 'IN' clause.  This is a quick way
 
 ::
     
-    :%s/\v(\S+)/"\1",/g
+    :%s/\v(\S+)/'\1',/g
     
