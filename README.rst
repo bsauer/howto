@@ -415,3 +415,13 @@ Oracle Show All Privileges
     SELECT * FROM USER_ROLE_PRIVS;
     
 http://stackoverflow.com/questions/9811670/how-to-show-all-privileges-from-a-user-in-oracle
+
+VIM: Add quotes around text
+===========================
+
+MySQL requires a quoted list of values for the 'IN' clause.  This is a quick way to quote and comma separate a list of values.
+
+::
+    
+    :%s/\v(\S+)/"\1",/g
+    
