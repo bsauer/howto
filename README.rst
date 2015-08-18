@@ -25,7 +25,11 @@ use rsync instead of scp:
             and
             --partial means keeping partially transferred files if the transfer is interrupted
             
-        rsync -aAXv /* /path/to/backup/folder --exclude={/dev/*,/proc/*,/sys/*,/tmp/*,/run/*,/mnt/*,/media/*,/lost+found}    
+        rsync -aAXv /* /path/to/backup/folder --exclude={/dev/*,/proc/*,/sys/*,/tmp/*,/run/*,/mnt/*,/media/*,/lost+found} 
+        
+        My new favorite:
+        
+        rsync -azP -rsh=ssh user@server:/path_to_remote_dir/ path_to source_dir
  
 
 Reference: http://yyab.wordpress.com/2006/12/18/resume-a-large-scp-transfer/
