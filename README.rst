@@ -445,3 +445,10 @@ To fix it, in the docker toolbox VM I ran:
 The sync call syncs any pending writes to disk. The second command tells the kernel to clear the filesystem caches.
 
 Once I did that my pip install worked fine.
+
+
+Docker for Development
+======================
+
+https://medium.com/@rdsubhas/docker-for-development-common-problems-and-solutions-95b25cae41eb#.1ylejar4i
+
