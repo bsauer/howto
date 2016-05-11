@@ -429,3 +429,17 @@ MySQL requires a quoted list of values for the 'IN' clause.  This is a quick way
     
     :%s/\v(\S+)/'\1',/g
     
+Docker - Python - python TypeError: must be encoded string without NULL bytes, not str
+======================================================================================
+
+http://stackoverflow.com/questions/34703094/python-typeerror-must-be-encoded-string-without-null-bytes-not-str-docker-ir/35255138
+
+To fix it, in the docker toolbox VM I ran:
+
+docker-machine ssh default
+sudo su -
+sync; echo 3 > /proc/sys/vm/drop_caches
+
+The sync call syncs any pending writes to disk. The second command tells the kernel to clear the filesystem caches.
+
+Once I did that my pip install worked fine.
