@@ -436,9 +436,11 @@ http://stackoverflow.com/questions/34703094/python-typeerror-must-be-encoded-str
 
 To fix it, in the docker toolbox VM I ran:
 
-docker-machine ssh default
-sudo su -
-sync; echo 3 > /proc/sys/vm/drop_caches
+::
+
+    docker-machine ssh default
+    sudo su -
+    sync; echo 3 > /proc/sys/vm/drop_caches
 
 The sync call syncs any pending writes to disk. The second command tells the kernel to clear the filesystem caches.
 
