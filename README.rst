@@ -452,3 +452,12 @@ Docker for Development
 
 https://medium.com/@rdsubhas/docker-for-development-common-problems-and-solutions-95b25cae41eb#.1ylejar4i
 
+
+VMWare DNS Fix:
+===============
+
+Add this to the /etc/resolv.conf::
+    
+    nameserver 8.8.8.8 
+    nameserver 8.8.4.4
+
