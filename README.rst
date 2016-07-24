@@ -498,5 +498,93 @@ Django and MySQL on Azure with Python Tools 2.2 for Visual Studio
 IBM Swift Sandbox BETA
     https://swiftlang.ng.bluemix.net/#/repl
 
+RESTful API with Node.js
+    https://medium.com/@jcapona/restful-api-with-node-js-938c1ae386fe#.vlumbp4ys
+    
+Sample Oscar projects
+    http://django-oscar.readthedocs.io/en/latest/internals/sandbox.html#running-the-sandbox-locally
 
+abhicodes - Hugo Developer Instructions
+    https://code.abhi.co
+    
+Hugo Quickstart
+    https://gohugo.io/overview/quickstart/
+    
+Moving to Hugo Static Web Pages
+    https://tepid.org/tech/hugo-web/
+    
+Using your own flavor of Bootstrap in a Django project - Part 1
+    https://www.lasolution.be/blog/using-your-own-flavor-bootstrap-django-project-part-1.html
+    
+Getting Started with Sass
+    http://foundation.zurb.com/emails/docs/sass-guide.html
+    
+Remove all containners based on docker image name
+    https://linuxconfig.org/remove-all-containners-based-on-docker-image-name
+    
+Python for Beginners: Reading & Manipulating CSV Files
+    https://newcircle.com/s/post/1572/python_for_beginners_reading_and_manipulating_csv_files
+
+How To Import a CSV (or TSV) file into a Django Model
+    http://mitchfournier.com/2011/10/11/how-to-import-a-csv-or-tsv-file-into-a-django-model/
+    
+Django CSV Import
+    https://github.com/edcrewe/django-csvimport
+    
+pip-tools = pip-compile + pip-sync
+    https://github.com/nvie/pip-tools
+    
+Running etcd in Docker Containers
+    https://coreos.com/blog/Running-etcd-in-Containers/
+    
+Governor: A Template for PostgreSQL HA with etcd
+    https://github.com/compose/governor
+compose/governor - PostgreSQL, HAProxy and etcd
+    https://github.com/compose/governor/tree/master/helpers
+    
+Django Development With Docker Compose and Machine
+    https://realpython.com/blog/python/django-development-with-docker-compose-and-machine/
+
+sameersbn/postgresql:9.4-23
+    https://github.com/sameersbn/docker-postgresql
+    
+Service registry bridge for Docker
+    https://github.com/gliderlabs/registrator
+    
+Getting started with Docker, Compose and Django
+    https://howchoo.com/g/y2y1mtkznda/getting-started-with-docker-compose-and-django
+    
+django-postgres-copy
+    http://django-postgres-copy.readthedocs.io/en/latest/
+    
+How do you escape strings for SQLite table/column names in Python?
+    http://stackoverflow.com/questions/6514274/how-do-you-escape-strings-for-sqlite-table-column-names-in-python
+    
+Automate the Boring Stuff with Python
+    Chapter 12 – Working with Excel Spreadsheets
+    https://automatetheboringstuff.com/chapter12/
+    
+Read and Write Excel Tables from Python
+    https://www.getdatajoy.com/learn/Read_and_Write_Excel_Tables_from_Python
+    
+nhoffman/read_dcw.py
+    https://gist.github.com/nhoffman/1199652
+
+Improve Your Python: 'yield' and Generators Explained
+    https://jeffknupp.com/blog/2013/04/07/improve-your-python-yield-and-generators-explained/
+    
+iterating over a range of rows using ws.iter_rows in the optimised reader of openpyxl
+    http://stackoverflow.com/questions/10614518/iterating-over-a-range-of-rows-using-ws-iter-rows-in-the-optimised-reader-of-ope
+    
+DeusJeraldy
+    https://gist.github.com/DeusJeraldy
+xl2sqlite.py
+    https://gist.github.com/DeusJeraldy/a3faf06e0169241794ec8c03440c3e13
+    
+meitar/xl2sqlite.py
+    https://gist.github.com/meitar/fb62f19aa1d73b766dbc
+
+Iterate over model instance field names and values in template
+    http://stackoverflow.com/questions/2170228/iterate-over-model-instance-field-names-and-values-in-template
+    
 
