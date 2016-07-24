@@ -480,4 +480,23 @@ Docker Service Discovery Using Etcd and Haproxy
 An Introduction to HAProxy and Load Balancing Concepts
     https://www.digitalocean.com/community/tutorials/an-introduction-to-haproxy-and-load-balancing-concepts
     
+Automated deployments with Wercker
+    https://gohugo.io/tutorials/automated-deployments/
+    
+Getting started with Docker, Compose and Django
+    https://howchoo.com/g/y2y1mtkznda/getting-started-with-docker-compose-and-django
+    
+Docker Swarm 1.0 with Multi-host Networking: Manual Setup
+    http://goelzer.com/blog/2015/12/29/docker-swarmoverlay-networks-manual-method/
+    
+Learning Microservices Architecture with Bluemix and Docker (Part 2)
+    http://blog.ibmjstart.net/2015/07/23/learning-microservices-architecture-bluemix-docker-part-2/
+    
+Django and MySQL on Azure with Python Tools 2.2 for Visual Studio
+    https://azure.microsoft.com/en-us/documentation/articles/web-sites-python-ptvs-django-mysql/
+    
+IBM Swift Sandbox BETA
+    https://swiftlang.ng.bluemix.net/#/repl
+
+
 
