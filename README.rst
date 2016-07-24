@@ -461,3 +461,23 @@ Add this to the /etc/resolv.conf::
     nameserver 8.8.8.8 
     nameserver 8.8.4.4
 
+
+Bookmarks 2016-07-23
+====================
+
+Docker for Development: Common Problems and Solutions
+    https://medium.com/@rdsubhas/docker-for-development-common-problems-and-solutions-95b25cae41eb#.f13lmwuxr
+    
+Small Step: Integrating Scrapy in Django
+    https://sreeramboyapati.wordpress.com/2014/02/15/small-step-integrating-scrapy-in-django/
+    
+Consul Template for transparent load balancing of containers
+    https://jlordiales.me/2015/04/01/consul-template/
+    
+Docker Service Discovery Using Etcd and Haproxy
+    http://jasonwilder.com/blog/2014/07/15/docker-service-discovery/
+    
+An Introduction to HAProxy and Load Balancing Concepts
+    https://www.digitalocean.com/community/tutorials/an-introduction-to-haproxy-and-load-balancing-concepts
+    
+
