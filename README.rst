@@ -29,7 +29,7 @@ use rsync instead of scp:
         
         My new favorite:
         
-        rsync -azP -rsh=ssh user@server:/path_to_remote_dir/ path_to source_dir
+        rsync -azP --rsh=ssh user@server:/path_to_remote_dir/ path_to source_dir
  
 
 Reference: http://yyab.wordpress.com/2006/12/18/resume-a-large-scp-transfer/
