@@ -586,5 +586,23 @@ meitar/xl2sqlite.py
 
 Iterate over model instance field names and values in template
     http://stackoverflow.com/questions/2170228/iterate-over-model-instance-field-names-and-values-in-template
-    
-Hello
+
+
+Docker Maintenance:
+===================
+
+To delete orphaned volumes in Docker 1.9 and up you can also use the built-in docker volume commands instead of this docker-cleanup-volumes script. The built-in command also deletes any directory in /var/lib/docker/volumes that is not a volume so make sure you didn't put anything in there you want to save:
+List:
+
+    ::
+        $ docker volume ls -qf dangling=true
+
+Cleanup:
+
+    ::
+        $ docker volume rm $(docker volume ls -qf dangling=true)
+
+Or, handling a no-op better but Linux specific:
+
+    ::
+        $ docker volume ls -qf dangling=true | xargs -r docker volume rm
