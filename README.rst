@@ -592,17 +592,31 @@ Docker Maintenance:
 ===================
 
 To delete orphaned volumes in Docker 1.9 and up you can also use the built-in docker volume commands instead of this docker-cleanup-volumes script. The built-in command also deletes any directory in /var/lib/docker/volumes that is not a volume so make sure you didn't put anything in there you want to save:
+
 List:
 
-    ::
-        $ docker volume ls -qf dangling=true
+::
+        
+    $ docker volume ls -qf dangling=true
 
 Cleanup:
 
-    ::
-        $ docker volume rm $(docker volume ls -qf dangling=true)
+::
+
+    $ docker volume rm $(docker volume ls -qf dangling=true)
 
 Or, handling a no-op better but Linux specific:
 
-    ::
-        $ docker volume ls -qf dangling=true | xargs -r docker volume rm
+::
+
+    $ docker volume ls -qf dangling=true | xargs -r docker volume rm
+    
+    
+Verify sha256 hash function in self-signed x509 digital certificate:
+====================================================================
+
+Check a certificate:
+
+::
+
+    openssl x509 -noout -text -in techglimpse.com.crt
