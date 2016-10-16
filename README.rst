@@ -620,3 +620,14 @@ Check a certificate:
 ::
 
     openssl x509 -noout -text -in techglimpse.com.crt
+
+
+Copy your key to a remote host - Who knew!:
+===========================================
+
+http://www.tecmint.com/install-and-configure-ansible-automation-tool-in-linux/
+
+::
+
+    # ssh-keygen -t rsa -b 4096 -C "admin@tecmintlocal.com"
+    # ssh-copy-id tecmint@192.168.0.112
