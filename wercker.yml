@@ -1,0 +1,9 @@
+box: ubuntu
+
+build:
+
+    steps:
+        - internal/shell:
+            cmd: /bin/sh
+            code: | 
+                cd /var/log
