@@ -631,3 +631,14 @@ http://www.tecmint.com/install-and-configure-ansible-automation-tool-in-linux/
 
     # ssh-keygen -t rsa -b 4096 -C "admin@tecmintlocal.com"
     # ssh-copy-id tecmint@192.168.0.112
+    
+
+ZSH History:
+============
+
+List command dates in history file:
+
+::
+
+    fc -li -5000
+    
