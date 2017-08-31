@@ -641,4 +641,10 @@ List command dates in history file:
 ::
 
     fc -li -5000
-    
+   
+Control VirtualBox from the command line:
+=========================================
+
+https://www.garron.me/en/go2linux/vboxmanage-control-and-manage-virtualbox-command-line.html
+
+
