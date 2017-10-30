@@ -648,3 +648,17 @@ Control VirtualBox from the command line:
 https://www.garron.me/en/go2linux/vboxmanage-control-and-manage-virtualbox-command-line.html
 
 
+PostgreSQL Reload Configuration:
+================================
+
+http://www.heatware.net/databases/postgresql-reload-config-without-restarting/
+
+PostgreSQL Performance Tips:
+============================
+
+https://robots.thoughtbot.com/advanced-postgres-performance-tips
+
+
+
+
+
