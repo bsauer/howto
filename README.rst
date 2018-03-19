@@ -659,6 +659,16 @@ PostgreSQL Performance Tips:
 https://robots.thoughtbot.com/advanced-postgres-performance-tips
 
 
+Reformat a Drive for Mac
+========================
+https://mycyberuniverse.com/web/how-fix-mediakit-reports-not-enough-space-on-device.html
+
+::
+    diskutil list
+    diskutil unmountDisk force disk3
+    sudo dd if=/dev/zero of=/dev/rdisk3 bs=1024 count=1024
+    diskutil partitionDisk disk3 GPT JHFS+ "Backup" 0g
 
 
+Done
 
